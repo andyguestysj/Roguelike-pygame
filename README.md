@@ -93,3 +93,9 @@ Controls:
   * Clearing dungeons (10 points per dungeon cleared).
 
 ---
+
+Feel free to do whatever you want with this, except with resources listed in `CREDITS.txt`.
+
+Any suggestions and feedback is appreciated. :)
+
+---
