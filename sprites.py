@@ -75,12 +75,12 @@ class Player(pygame.sprite.Sprite):
 
     def move(self, dx=0, dy=0):
         wall = self.collide(self.game.layers["WALLS"], dx, dy)
+        self.handle_encounters(dx, dy)
         if wall and self.key:
             wall.interact()
         if not wall and not self.collide(self.game.layers["ENEMIES"], dx, dy):
             self.pos.x += dx
             self.pos.y += dy
-        self.handle_encounters(dx, dy)
         self.handle_pickups()
         if dx > 0:
             self.frames = self.animation_R
