@@ -11,7 +11,7 @@ YELLOW = (255, 255, 0)
 MAGENTA = (255, 0, 255)
 
 # Screen
-SCREEN_TITLE = "Pixel dungeon"
+SCREEN_TITLE = "Roguelike"
 SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 480
 FRAMERATE = 30
@@ -78,7 +78,7 @@ UI_COIN = (4, 6)
 # [damage, health, hit_resistance, accuracy]
 ENEMY_STATS = [
     [  1, 3,  0.1,  0.3],
-    [0.25, 4, 0.15,  0.6],
+    [0.25, 4, 0.15, 0.6],
     [  3, 2, 0.05,  0.5],
     [1.5, 8, 0.35, 0.35]
 ]
