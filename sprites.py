@@ -108,7 +108,9 @@ class Player(pygame.sprite.Sprite):
             self.health = self.max_health
 
     def hit(self, attacker):
-        hit_chance = attacker.accuracy - self.hit_resistance
+        hit_chance = attacker.accuracy - self.hit_resistance + BASE_HIT_CHANCE
+        if hit_chance < 0.1:
+            hit_chance = 0.1
         if hit_chance > 1:
             self.health -= attacker.damage
         elif random.random() < hit_chance:
