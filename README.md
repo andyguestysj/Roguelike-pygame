@@ -1,5 +1,5 @@
 # Roguelike-pygame
-A simple roguelike clone written using Pygame
+A simple roguelike written in Python w/ Pygame
 
 ---
 
