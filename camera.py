@@ -18,3 +18,4 @@ class Camera:
     def update(self, target):
         self.camera.x = -target.rect.x + self.offsetX
         self.camera.y = -target.rect.y + self.offsetY
+        
