@@ -94,8 +94,13 @@ Controls:
 
 ---
 
+## Sounds
+
+* Picking something up plays a sound respective to the item;
+* Successful attack on enemy plays sound based on slime type, useful as there's lack of visuals/text for combat;
+
+---
+
 Feel free to do whatever you want with this, except with resources listed in `CREDITS.txt`.
 
 Any suggestions and feedback is appreciated. :)
-
----
