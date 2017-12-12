@@ -35,7 +35,7 @@ WINDOW_ICON = os.path.join(RESOURCES_FOLDER, "icon.png")
 SPRITE_SHEET = os.path.join(RESOURCES_FOLDER, "sprites.png")
 FONT_FILE = os.path.join(RESOURCES_FOLDER, "font.ttf")
 
-HIT_SOUND = [os.path.join(RESOURCES_FOLDER, f"hit_{x}.wav") for x in range(4)]
+HIT_SOUND = [os.path.join(RESOURCES_FOLDER, "hit_{}.wav".format(x)) for x in range(4)]
 PLAYER_PICKUP_COIN_SOUND = os.path.join(RESOURCES_FOLDER, "coin_pickup.wav")
 PLAYER_PICKUP_KEY_SOUND = os.path.join(RESOURCES_FOLDER, "key_pickup.wav")
 

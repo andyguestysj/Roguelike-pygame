@@ -152,8 +152,8 @@ class Game:
         if score > self.highscore:
             self.highscore = score
             self.save_highscore()
-        self.render_text(f"You scored {score}", (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 - 32))
-        self.render_text(f"Your best {self.highscore}", (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2))
+        self.render_text("You scored {}".format(score), (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2 - 32))
+        self.render_text("Your best {}".format(self.highscore), (SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2))
         pygame.display.flip()
         pygame.time.wait(1000)
         self.wait_for_key()
